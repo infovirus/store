@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Store
 {
-    interface IbookRepository
+    interface IBookRepository
     {
+        Book[] GetAllByTitle(string titlePart);
     }
 }
